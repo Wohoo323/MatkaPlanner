@@ -1,19 +1,19 @@
 # MatkaPlanner
 
-MatkaPlanner on tekoälyä hyödyntävä mobiilisovellus matkasuunnitelmien luomiseen. Sovellus on toteutettu React Nativella ja Exolla osana ohjelmistokehityksen opintoja.
+MatkaPlanner is an AI-powered mobile travel planning application built with React Native, Expo, and FastAPI.
 
-Sovelluksen avulla käyttäjä voi luoda tekoälyn avulla matkasuunnitelmia, tarkastella kohteen säätietoja, tallentaa matkoja Firebaseen sekä muokata suunnitelmia tekoälyavustajan avulla.
+The application allows users to generate personalized travel itineraries using artificial intelligence, view destination weather forecasts, save trips to Firebase, and modify travel plans through an AI assistant.
 
-## Ominaisuudet
+## Features
 
-* Tekoälyn luomat matkasuunnitelmat
-* Kohteen säätiedot ja sääennuste
-* Matkojen tallennus Firebase Firestoreen
-* Tallennettujen matkojen tarkastelu
-* Matkasuunnitelmien muokkaus tekoälyn avulla
-* Moderni mobiilikäyttöliittymä
+* AI-generated travel itineraries
+* Destination weather forecasts
+* Save trips to Firebase Firestore
+* View and manage saved trips
+* AI-powered trip modifications
+* Modern mobile user interface
 
-## Käytetyt teknologiat
+## Technologies
 
 ### Frontend
 
@@ -25,38 +25,38 @@ Sovelluksen avulla käyttäjä voi luoda tekoälyn avulla matkasuunnitelmia, tar
 
 * Python FastAPI
 
-### Tietokanta
+### Database
 
 * Firebase Firestore
 
-### API-palvelut
+### APIs
 
 * Groq AI API
 * Open-Meteo Weather API
 
-## Projektin tavoitteet
+## Project Goals
 
-Projektin tavoitteena oli oppia mobiilisovelluskehitystä React Nativella sekä tekoälyn ja ulkoisten rajapintojen hyödyntämistä käytännön sovelluksessa.
+The goal of this project was to learn modern mobile application development using React Native while integrating artificial intelligence, cloud services, and external APIs into a practical real-world application.
 
-## Mitä opin projektissa
+## What I Learned
 
-Projektin aikana opin:
+During this project I learned:
 
-* React Native -mobiilikehitystä
-* TypeScriptin käyttöä
-* Firebase Firestore -integraatioita
-* REST API -rajapintojen hyödyntämistä
-* FastAPI-backendin kehittämistä
-* Tekoälyn integrointia mobiilisovellukseen
-* Mobiilikäyttöliittymien suunnittelua ja navigaatiota
+* React Native mobile development
+* TypeScript
+* Firebase Firestore integration
+* REST API communication
+* FastAPI backend development
+* AI integration in mobile applications
+* Mobile UI design and navigation
 
-## Kuvakaappaukset
+## Screenshots
 
-Kuvakaappaukset lisätään myöhemmin.
+Screenshots will be added soon.
 
-## Tekijä
+## Author
 
 **Tuomas Juustovaara**
 
-Tietojenkäsittelyn opiskelija
-Lapin ammattikorkeakoulu
+Bachelor of Business Information Technology Student
+Lapland University of Applied Sciences
