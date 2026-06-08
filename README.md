@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# MatkaPlanner
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+MatkaPlanner on tekoälyä hyödyntävä mobiilisovellus matkasuunnitelmien luomiseen. Sovellus on toteutettu React Nativella ja Exolla osana ohjelmistokehityksen opintoja.
 
-## Get started
+Sovelluksen avulla käyttäjä voi luoda tekoälyn avulla matkasuunnitelmia, tarkastella kohteen säätietoja, tallentaa matkoja Firebaseen sekä muokata suunnitelmia tekoälyavustajan avulla.
 
-1. Install dependencies
+## Ominaisuudet
 
-   ```bash
-   npm install
-   ```
+* Tekoälyn luomat matkasuunnitelmat
+* Kohteen säätiedot ja sääennuste
+* Matkojen tallennus Firebase Firestoreen
+* Tallennettujen matkojen tarkastelu
+* Matkasuunnitelmien muokkaus tekoälyn avulla
+* Moderni mobiilikäyttöliittymä
 
-2. Start the app
+## Käytetyt teknologiat
 
-   ```bash
-   npx expo start
-   ```
+### Frontend
 
-In the output, you'll find options to open the app in a
+* React Native
+* Expo Router
+* TypeScript
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Backend
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* Python FastAPI
 
-## Get a fresh project
+### Tietokanta
 
-When you're ready, run:
+* Firebase Firestore
 
-```bash
-npm run reset-project
-```
+### API-palvelut
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+* Groq AI API
+* Open-Meteo Weather API
 
-## Learn more
+## Projektin tavoitteet
 
-To learn more about developing your project with Expo, look at the following resources:
+Projektin tavoitteena oli oppia mobiilisovelluskehitystä React Nativella sekä tekoälyn ja ulkoisten rajapintojen hyödyntämistä käytännön sovelluksessa.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Mitä opin projektissa
 
-## Join the community
+Projektin aikana opin:
 
-Join our community of developers creating universal apps.
+* React Native -mobiilikehitystä
+* TypeScriptin käyttöä
+* Firebase Firestore -integraatioita
+* REST API -rajapintojen hyödyntämistä
+* FastAPI-backendin kehittämistä
+* Tekoälyn integrointia mobiilisovellukseen
+* Mobiilikäyttöliittymien suunnittelua ja navigaatiota
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Kuvakaappaukset
+
+Kuvakaappaukset lisätään myöhemmin.
+
+## Tekijä
+
+**Tuomas Juustovaara**
+
+Tietojenkäsittelyn opiskelija
+Lapin ammattikorkeakoulu
